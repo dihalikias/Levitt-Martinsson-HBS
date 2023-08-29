@@ -1,7 +1,7 @@
 function [A, U, V, D, D0] = LevittMartinssonHBS(Ax, N, r)
 % Learn a symmetric rank-r HBS matrix with matrix-vector products
 %
-% A = NewMartinssonHBSAlgorithm(Ax, Atx, N, r) learns a rank-r NxN HBS matrix via matrix-vector
+% A = LevittMartinssonHBS(Ax, N, r) learns a symmetric rank-r NxN HBS matrix via matrix-vector
 % products. Here, AX is a function handle that performs a matrix-vector
 % product involving A. 
 %
