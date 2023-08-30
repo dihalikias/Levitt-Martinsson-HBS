@@ -19,8 +19,8 @@ We define the function handle for matrix-vector multiplication with A.
 Ax = @(x) A*x;
 ```
 
-Now, we pass this in along with the matrix size and off-diagonable block rank, 2. This gives us the matrix recovered by the Levitt-Martinsson algorithm. 
+Now, we pass this in along with the matrix size and off-diagonable block rank, 1. This gives us the matrix recovered by the Levitt-Martinsson algorithm. 
 
 ```
-Approx = LevittMartinssonHBS(Ax, N, 2)1
+Approx = LevittMartinssonHBS(Ax, N, 1)
 ```
