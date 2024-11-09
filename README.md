@@ -22,5 +22,5 @@ Ax = @(x) A*x;
 Now, we pass this in along with the matrix size and off-diagonable block rank, 1. This gives us the matrix recovered by the Levitt-Martinsson algorithm. 
 
 ```
-Approx = LevittMartinssonHBS(Ax, N, 1)
+Approx = LevittMartinssonHBS(Ax, N, 2)
 ```
